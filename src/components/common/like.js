@@ -5,7 +5,7 @@ const Like = (props) => {
     <i
       style={{ cursor: "pointer" }}
       onClick={props.toggleClick}
-      class={classes}
+      className={classes}
       aria-hidden="true"
     ></i>
   );
